@@ -1,0 +1,36 @@
+.nav-container {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+    text-align: center;
+    padding: 1em;
+}
+.ojay{
+    font-size: 24px;
+        color: whitesmoke;
+        text-shadow: 2px 2px 7px #ed3eee;
+}
+
+.logo {
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.logo p {
+    font-size: 1.3em;
+    padding-left: 0.3em;
+    color: #000;
+}
+
+
+@media screen and (max-width:869px) {
+    .nav-container {
+        margin: 0;
+        padding: 0.5em;
+    }
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Joan&family=Libre+Baskerville&family=Poppins:wght@100;300&display=swap');
+
+.about-container {
+    width: 95vw;
+    margin: 1em;
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container h1 {
+
+    margin-top: 0.5em;
+}
+
+.text {
+    padding: 0 4em;
+    text-align: center;
+
+}
+
+.text a {
+    color: #00000f;
+
+}
+
+.text p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin: 0.7em;
+    opacity: 0.95;
+    color: #00000f;
+    font-family: 'Barlow', sans-serif;
+}
+
+.text-div {
+    margin: 1em 0;
+}
+
+.text-div h3 {
+    /* font-size: 1.8em; */
+    margin-bottom: 0.2em;
+}
+
+.text-div span {
+    font-weight: bold;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1028px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 869px) {
+    .about-container {
+        margin: 0em;
+        padding: 2em;
+    }
+
+    .text {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .text p {
+        font-size: 1em;
+    }
+
+    .profile img {
+        border-radius: 50%;
+        border: 3px solid #505050;
+        height: 90%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile {
+        padding: 3em;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .about-container {
+        margin: 0em;
+        padding: 2em;
+    }
+
+    .text {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .text p {
+        font-size: 1em;
+    }
+
+    .profile img {
+        border-radius: 50%;
+        border: 3px solid #505050;
+        height: 90%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile {
+        padding: 3em;
+        width: 100%;
+    }
+}

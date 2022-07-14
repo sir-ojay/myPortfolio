@@ -1,0 +1,22 @@
+.box {
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    background: #00000f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.box h4 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.box:hover {
+    cursor: pointer;
+    color: #fff9f9;
+}

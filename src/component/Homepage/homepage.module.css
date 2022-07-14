@@ -1,0 +1,264 @@
+.container {
+    max-width: 100vw;
+}
+
+.small-container {
+    max-width: 100vw;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.home-container .text {
+    width: 65%;
+    text-align: center;
+
+}
+
+
+
+.home-container .text h1 {
+    font-size: 40px;
+    margin-top: 0.5em;
+    color: #00000f;
+    font-weight: 700;
+}
+
+.home-container .text h3 {
+    font-size: 28px;
+    margin-top: 0.5em;
+    color: #00000f;
+    font-weight: 500;
+}
+
+
+.text span {
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 28px;
+    line-height: 1.5em;
+    color: #333;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+    color: #333;
+
+}
+
+.box p {
+    font-size: 1.4em;
+    color: #333;
+    z-index: 10;
+    padding-right: 0.2em;
+    
+}
+
+.box .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: animate 1s linear infinite;
+}
+
+.box:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.box p:hover {
+    color: #000;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.small-container .touch {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.small-container .touch a {
+    text-decoration: none;
+    color: #00000f;
+    font-size: 1.4em;
+
+}
+
+
+
+@media screen and (max-width: 1028px) {
+    .home-container {
+        flex-direction: column;
+        margin: 1em;
+        padding: 1em;
+    }
+
+    .text h1 {
+        font-size: 4.5em;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .text h1 {
+        font-size: 3.5em;
+    }
+
+    .container {
+        padding-left: 0;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .homepage-container {
+        margin: 0;
+        padding: 2em;
+    }
+
+    .small-container {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 528px) {
+
+    .home-container {
+        margin: 4em 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: fit-content;
+    }
+
+    .home-container .text h1 {
+        font-size: 25px;
+        margin-top: 0.5em;
+        color: #00000f;
+        font-weight: 700;
+    }
+
+    .home-container .text h3 {
+        font-size: 20px;
+        margin-top: 0.5em;
+        color: #00000f;
+        font-weight: 500;
+    }
+
+
+    .profile img {
+        border-radius: 50%;
+        border: 3px solid #505050;
+        height: 90%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile {
+        padding: 3em;
+    }
+
+    .text p {
+        font-size: 20px;
+        line-height: 1.34em;
+    }
+
+    .text .box p {
+        font-size: 1em;
+        line-height: 1.34em;
+    }
+
+    .home-container .text {
+        width: 100%;
+    }
+
+    .box {
+        margin-top: 0.5em;
+    }
+
+}
+@media screen and (max-width: 414px) {
+
+    .home-container {
+        margin: 4em 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: fit-content;
+    }
+
+    .home-container .text h1 {
+        font-size: 25px;
+        margin-top: 0.5em;
+        color: #00000f;
+        font-weight: 700;
+    }
+
+    .home-container .text h3 {
+        font-size: 20px;
+        margin-top: 0.5em;
+        color: #00000f;
+        font-weight: 500;
+    }
+
+
+    .profile img {
+        border-radius: 50%;
+        border: 3px solid #505050;
+        height: 90%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile {
+        padding: 3em;
+    }
+
+    .text p {
+        font-size: 20px;
+        line-height: 1.34em;
+    }
+
+    .text .box p {
+        font-size: 1em;
+        line-height: 1.34em;
+    }
+
+    .home-container .text {
+        width: 100%;
+    }
+
+    .box {
+        margin-top: 0.5em;
+    }
+
+}

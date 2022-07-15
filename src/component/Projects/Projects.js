@@ -2,8 +2,8 @@ import React from "react";
 import styles from "./Projects.module.css";
 import { Link } from "react-router-dom";
 import { HiArrowSmRight } from "react-icons/hi";
-import Receive from '../../assets/receive.png';
-import CRM from '../../assets/crm.png'
+import Receive from "../../assets/receive.png";
+import CRM from "../../assets/crm.png";
 
 const Work = () => {
   return (
@@ -42,7 +42,6 @@ const Work = () => {
                 <p>css</p>
                 <p>nodejs </p>
               </div>
-            
             </div>
           </div>
         </div>
@@ -61,7 +60,6 @@ const Work = () => {
             <div className={styles.chat}>
               <h3>OJAY CRM</h3>
               <div className={styles["details"]}>
-            
                 {/* <p>
                   {" "}
                   Ojay crm is a web application that helps organisations to 
@@ -69,12 +67,10 @@ const Work = () => {
                 </p> */}
                 <p> Stacks : Html, Css, JavaScript,</p>
                 <p> Reactjs</p>
-                
               </div>
             </div>
           </div>
         </div>
-       
       </section>
 
       <Link to="/about">

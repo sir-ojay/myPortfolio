@@ -47,7 +47,7 @@ const Work = () => {
             </a>
 
             <div className={styles.chat} id={styles.crm}>
-              <h3> Blueberry CRM </h3>
+              <h3>OJAY CRM </h3>
               <div className={styles["details"]}>
                 <p> Reactjs</p>
                 <p> css</p>

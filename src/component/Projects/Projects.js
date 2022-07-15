@@ -42,10 +42,7 @@ const Work = () => {
                 <p>css</p>
                 <p>nodejs </p>
               </div>
-              <div>
-                {" "}
-                {/* <p> React, Nodejs</p>{" "} */}
-              </div>
+            
             </div>
           </div>
         </div>
@@ -62,9 +59,9 @@ const Work = () => {
             </a>
 
             <div className={styles.chat}>
-              <h3>Blueberry CRM</h3>
+              <h3>OJAY CRM</h3>
               <div className={styles["details"]}>
-                {/* <h3>Blueberry CRM</h3> */}
+            
                 {/* <p>
                   {" "}
                   Ojay crm is a web application that helps organisations to 

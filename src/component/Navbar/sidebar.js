@@ -6,6 +6,7 @@ import {
   SidebarWrapper,
   SidebarLink,
   SidebarMenu,
+  Contact,
 } from "./NavbarStyles";
 
 const Sidebar = ({ toggle, isOpen }) => {
@@ -17,16 +18,16 @@ const Sidebar = ({ toggle, isOpen }) => {
 
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="/project" onClick={toggle}>
-            Project
-          </SidebarLink>
           <SidebarLink to="/about" onClick={toggle}>
             About
           </SidebarLink>
-
-          <SidebarLink to="/contact" onClick={toggle}>
-            Contact
+          <SidebarLink to="/project" onClick={toggle}>
+            Project
           </SidebarLink>
+
+          <Contact>
+            <a href="mailto:prince.ibrahim76@gmail.com">Contact</a>
+          </Contact>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

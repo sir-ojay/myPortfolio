@@ -1,13 +1,9 @@
 import React from "react";
 import styles from "./footer.module.css";
-import { FaTwitter, FaInstagram, FaLinkedin, FaGithub , FaCopyright} from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaGithub , FaCopyright} from "react-icons/fa";
 import styled from "styled-components";
 
 const Twitter = styled(FaTwitter)`
-  margin-right: 0.8em;
-  font-size: 1.2em;
-`;
-const Instagram = styled(FaInstagram)`
   margin-right: 0.8em;
   font-size: 1.2em;
 `;
@@ -32,10 +28,6 @@ const Footer = () => {
         <a href="https://www.twitter.com/@ibrahimSannu">
           {" "}
           <Twitter />{" "}
-        </a>
-        <a href="https://www.instagram.com/i_m_Ojay">
-          {" "}
-          <Instagram />
         </a>
         <a href="https://www.linkedin.com/in/ibrahim-ojeabu-sannu-b5bb70149?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BwTgICx4LQ%2BKaMy9yDDaPbg%3D%3D">
           {" "}

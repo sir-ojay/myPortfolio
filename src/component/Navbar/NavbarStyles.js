@@ -133,3 +133,9 @@ export const SidebarLink = styled(LinkR)`
     transition: 0.2s ease-in-out;
   }
 `;
+export const Contact = styled.div`
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.2s ease-in-out;
+`;

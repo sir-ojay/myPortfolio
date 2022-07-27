@@ -12,7 +12,7 @@ const About = () => {
       <div className={styles["about-content"]}>
         <section className={styles["text"]}>
           <div>
-            <a href="https://drive.google.com/file/d/1q7OVReQe00k77JGAAeLGgK407ctVucpE/view?usp=sharing">
+            <a href="https://docs.google.com/document/d/1NiD669Mx1kQibTg2RR6Ra_9atKTsum2W/edit?usp=sharing&ouid=110089224358121346164&rtpof=true&sd=true">
               View my resume{" "}
             </a>{" "}
             or
